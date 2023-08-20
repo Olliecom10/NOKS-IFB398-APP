@@ -4,7 +4,25 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/App Screens/Camera.unity
+    guid: 2e1410f1eee474b518a3b94e85d81622
+  - enabled: 1
+    path: Assets/App Screens/Fence Database Screen.unity
+    guid: e654b06f3cffa4ede80809a57024f75e
+  - enabled: 1
+    path: Assets/App Screens/Fence Measurement.unity
+    guid: 00de0606278e34f57a31534bb74d3f9a
+  - enabled: 1
+    path: Assets/App Screens/Gate Database Screen.unity
+    guid: d66aa86b7dc104e2796c7d2b1cf55cae
+  - enabled: 1
+    path: Assets/App Screens/Main Menu.unity
+    guid: 47f7d2bf62a7245569bca63b656a996f
+  - enabled: 1
+    path: Assets/App Screens/Options.unity
+    guid: f923629a7cfaafe47bf426e5ed6eb779
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: 4e665a273b4c44b0f877fcf5958408a9, type: 2}
