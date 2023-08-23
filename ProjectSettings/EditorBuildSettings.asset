@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/App Screens/Main Menu.unity
+    guid: 47f7d2bf62a7245569bca63b656a996f
+  - enabled: 1
     path: Assets/App Screens/Camera.unity
     guid: 2e1410f1eee474b518a3b94e85d81622
   - enabled: 1
@@ -17,9 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/App Screens/Gate Database Screen.unity
     guid: d66aa86b7dc104e2796c7d2b1cf55cae
-  - enabled: 1
-    path: Assets/App Screens/Main Menu.unity
-    guid: 47f7d2bf62a7245569bca63b656a996f
   - enabled: 1
     path: Assets/App Screens/Options.unity
     guid: f923629a7cfaafe47bf426e5ed6eb779
