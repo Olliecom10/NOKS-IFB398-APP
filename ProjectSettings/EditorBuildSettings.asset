@@ -24,5 +24,11 @@ EditorBuildSettings:
     path: Assets/App Screens/Options.unity
     guid: f923629a7cfaafe47bf426e5ed6eb779
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8ccd9197aaea64a1ca437bb51252ffdd,
+      type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 1db9f33cb876b425f841cf60c72c55f0,
+      type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: 4e665a273b4c44b0f877fcf5958408a9, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 17a8a3257d7634e83930744317efe6a7,
+      type: 2}
