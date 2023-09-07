@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571337, b: 0.3069219, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -925,10 +925,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 682732442e15146c1b319bc8e1cd79de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lineRenderer: {fileID: 0}
-  placementInteractable: {fileID: 0}
+  lineRenderer: {fileID: 1984326210}
+  placementInteractable: {fileID: 473987093}
   mText: {fileID: 1788725212911153377, guid: 363a9ea21c827449fa7a986bf33cd5e7, type: 3}
-  buttonText: {fileID: 0}
+  buttonText: {fileID: 1026673540}
   text: {fileID: 0}
   tPrice: 0
 --- !u!4 &1742816582
