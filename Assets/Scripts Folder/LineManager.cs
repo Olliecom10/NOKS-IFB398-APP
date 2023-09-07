@@ -53,6 +53,7 @@ public class LineManager : MonoBehaviour
         }
     }
 
+
     public void TotalPriceUpdate()
     {
         buttonText.text = $"Total Price: {tPrice}";
