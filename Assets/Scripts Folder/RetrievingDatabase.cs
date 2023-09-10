@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using SQLite4Unity3d;
 using System.Linq;
+using UnityEngine.UI;
 
 public class RetrievingDatabase : MonoBehaviour
 {
     private SQLiteConnection connection;
+    public Image imageUIElement;
 
     public class SqliteDb_developers_test
     {
@@ -17,6 +19,8 @@ public class RetrievingDatabase : MonoBehaviour
         public string status { get; set; }
         public byte[] image { get; set; }
     }
+
+    
 
     private void Start()
     {
@@ -40,6 +44,7 @@ public class RetrievingDatabase : MonoBehaviour
             // Convert and use the image data
             Texture2D imageTexture = ConvertBytesToTexture(item.image);
             // Display the image or do whatever you need
+            DisplayImage(imageTexture);
         }
     }
 
@@ -48,6 +53,11 @@ public class RetrievingDatabase : MonoBehaviour
         Texture2D texture = new Texture2D(2, 2);
         texture.LoadImage(bytes);
         return texture;
+    }
+
+    private void DisplayImage(Texture2D texture)
+    {
+        imageUIElement.sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), Vector2.zero);
     }
 }
 
