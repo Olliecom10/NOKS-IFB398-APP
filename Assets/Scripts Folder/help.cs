@@ -57,7 +57,8 @@ public class help : MonoBehaviour
         }
 
         // Open a connection to the SQLite database
-        connection = new SQLiteConnection(persistentDatabasePath, SQLiteOpenFlags.ReadWrite | SQLiteOpenFlags.Create);
+        // changed persistentDatabasePath to database path
+        connection = new SQLiteConnection(databasePath, SQLiteOpenFlags.ReadWrite | SQLiteOpenFlags.Create);
         connection.CreateTable<Gate_Fence_Database>();
 
         try
@@ -71,25 +72,28 @@ public class help : MonoBehaviour
             // Loop through productsList to create UI elements
             foreach (Gate_Fence_Database product in productsList)
             {
-                Debug.Log("Testing for each starting");
-                // Instantiate the prefab as a child of the DatabaseEntriesContainer
-                GameObject productInstance = Instantiate(DBDisplayEntries, DatabaseEntriesContainer.transform);
+                if (product.category.Contains("Gate"))
+                {
+                    Debug.Log("Testing for each starting");
+                    // Instantiate the prefab as a child of the DatabaseEntriesContainer
+                    GameObject productInstance = Instantiate(DBDisplayEntries, DatabaseEntriesContainer.transform);
 
-                // Get references to UI elements
-                TextMeshProUGUI nameText = productInstance.transform.Find("DB_Name").GetComponent<TextMeshProUGUI>();
-                TextMeshProUGUI priceText = productInstance.transform.Find("DB_Price").GetComponent<TextMeshProUGUI>();
-                TextMeshProUGUI categoryText = productInstance.transform.Find("DB_Category").GetComponent<TextMeshProUGUI>();
-                Image productImage = productInstance.transform.Find("Image").GetComponent<Image>();
+                    // Get references to UI elements
+                    TextMeshProUGUI nameText = productInstance.transform.Find("DB_Name").GetComponent<TextMeshProUGUI>();
+                    TextMeshProUGUI priceText = productInstance.transform.Find("DB_Price").GetComponent<TextMeshProUGUI>();
+                    TextMeshProUGUI categoryText = productInstance.transform.Find("DB_Category").GetComponent<TextMeshProUGUI>();
+                    Image productImage = productInstance.transform.Find("Image").GetComponent<Image>();
 
-                // Set text and image using product data
-                nameText.text = "Name: " + product.name;
-                priceText.text = "Price: $" + product.price;
-                categoryText.text = "Category: " + product.category;
+                    // Set text and image using product data
+                    nameText.text = "Name: " + product.name;
+                    priceText.text = "Price: " + product.price;
+                    categoryText.text = "Category: " + product.category;
 
-                // Create a Texture2D from the byte[] image data
-                Texture2D tex = new Texture2D(2, 2);
-                tex.LoadImage(product.image);
-                productImage.sprite = Sprite.Create(tex, new Rect(0, 0, tex.width, tex.height), Vector2.zero);
+                    // Create a Texture2D from the byte[] image data
+                    Texture2D tex = new Texture2D(2, 2);
+                    tex.LoadImage(product.image);
+                    productImage.sprite = Sprite.Create(tex, new Rect(0, 0, tex.width, tex.height), Vector2.zero);
+                }
             }
         }
         catch (Exception e)
