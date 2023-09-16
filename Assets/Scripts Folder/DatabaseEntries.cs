@@ -35,8 +35,11 @@ public class DatabaseEntries : MonoBehaviour
     private void Start()
     {
 
-        string dbPath = Application.dataPath + "Ezee_Industries.db";
-        var connection = new SQLiteConnection(dbPath, SQLiteOpenFlags.ReadWrite | SQLiteOpenFlags.Create);
+        //string dbPath = Application.dataPath + "Ezee_Industries.db";
+        //var connection = new SQLiteConnection(dbPath, SQLiteOpenFlags.ReadWrite | SQLiteOpenFlags.Create);
+
+        string dbPath = System.IO.Path.Combine(Application.dataPath, "Ezee_Industries.db");
+        connection = new SQLiteConnection(dbPath, SQLiteOpenFlags.ReadWrite | SQLiteOpenFlags.Create);
 
         var items = connection.Table<Gate_Fence_Database>().ToList();
 
