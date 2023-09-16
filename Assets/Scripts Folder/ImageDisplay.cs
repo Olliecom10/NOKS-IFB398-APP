@@ -10,20 +10,21 @@ public class ImageDisplay : MonoBehaviour
     private SQLiteConnection connection;
     public Image imageUIElement; // Assign your Image UI component in the Inspector
 
-    public class SqliteDb_developers_test
+    [Table("Gate_Fence_Database")]
+    public class Gate_Fence_Database
     {
         [PrimaryKey, AutoIncrement]
         public int id { get; set; }
         public string name { get; set; }
-        public float price { get; set; }
-        public string status { get; set; }
+        public string price { get; set; }
+        public string category { get; set; }
         public byte[] image { get; set; }
     }
 
     private void Start()
     {
         // Set up the database connection
-        string databasePath = System.IO.Path.Combine(Application.dataPath, "SQLite_Python.db");
+        string databasePath = System.IO.Path.Combine(Application.streamingAssetsPath, "Ezee_Industries.db");
         connection = new SQLiteConnection(databasePath, SQLiteOpenFlags.ReadWrite | SQLiteOpenFlags.Create);
 
         // Retrieve and display image data from the database
@@ -33,11 +34,11 @@ public class ImageDisplay : MonoBehaviour
     private void RetrieveAndDisplayImageData()
     {
         // Query the database and retrieve items
-        var items = connection.Table<SqliteDb_developers_test>().ToList();
+        var items = connection.Table<Gate_Fence_Database>().ToList();
 
         foreach (var item in items)
         {
-            Debug.Log($"ID: {item.id}, Name: {item.name}, Price: {item.price}, Status: {item.status}");
+            Debug.Log($"ID: {item.id}, Name: {item.name}, Price: {item.price}, Category: {item.category}");
 
             Texture2D imageTexture = ConvertBytesToTexture(item.image);
             DisplayImage(imageTexture);
