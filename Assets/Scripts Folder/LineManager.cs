@@ -13,29 +13,35 @@ public class LineManager : MonoBehaviour
     public TextMeshProUGUI buttonText;
     public Text text;
     public float tPrice = 0;
+    public static string SuserInput;
 
     // Start is called before the first frame update
     void Start()
     {
         placementInteractable.objectPlaced.AddListener(DrawLine);
     }
-
+    
+    public void ReadInput(TMP_InputField userinput)
+    {
+        SuserInput = userinput.text;        
+    }
 
     void DrawLine(ARObjectPlacementEventArgs args)
-    {
+    {   
         lineRenderer.positionCount++;
-
         lineRenderer.SetPosition(lineRenderer.positionCount - 1, args.placementObject.transform.position);
+        
+        float fencePriceMeter = float.Parse(SuserInput);
 
         if (lineRenderer.positionCount > 1)
         {
             Vector3 firstPoint = lineRenderer.GetPosition(lineRenderer.positionCount - 1);
             Vector3 secondPoint = lineRenderer.GetPosition(lineRenderer.positionCount - 2);
             float distance = Vector3.Distance(firstPoint, secondPoint);
-
-            float fencePriceMeter = 100;
+            
             float tempPrice = ((fencePriceMeter * distance) + tPrice);
-            tPrice = tempPrice;
+            tPrice = Mathf.Round(tempPrice * 100.0f) * 0.01f;;
+            
 
             TextMeshPro distanceText = Instantiate(mText);
             distanceText.text = "" + distance;
@@ -49,9 +55,11 @@ public class LineManager : MonoBehaviour
             distanceText.transform.rotation = rotat;
             distanceText.transform.position = (firstPoint + vectorDirection * 0.5f) + update * 0.05f;
 
+            
 
         }
     }
+   
 
 
     public void TotalPriceUpdate()
