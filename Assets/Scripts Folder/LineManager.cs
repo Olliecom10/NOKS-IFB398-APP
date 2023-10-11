@@ -13,7 +13,10 @@ public class LineManager : MonoBehaviour
     public TextMeshProUGUI buttonText;
     public Text text;
     public float tPrice = 0;
+    public static float tempTPrice;
     public static string SuserInput;
+    public TMP_Text canvasText;
+    public static int steelPost65;
 
     // Start is called before the first frame update
     void Start()
@@ -60,11 +63,35 @@ public class LineManager : MonoBehaviour
         }
     }
    
+    public void SteelPostAdd()
+    {
+        tempTPrice = tempTPrice + 300;
+        steelPost65 = steelPost65 + 1;
+        text.text = $"{steelPost65}";
+    }
 
+    public void SteelPostRemove()
+    {
+        tempTPrice = tempTPrice - 300;
+        steelPost65 = steelPost65 - 1;
+        text.text = $"{steelPost65}";
+
+    }
 
     public void TotalPriceUpdate()
     {
         buttonText.text = $"Total Price: ${tPrice}";
+        
+        tempTPrice = tPrice;
+    }
+
+    
+
+    
+
+    public void UpdateFinalPrice()
+    {
+        buttonText.text = $"The final price is: ${tempTPrice}";
     }
 
 

@@ -26,6 +26,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/App Screens/Distance Input.unity
     guid: 42273acfedfd33c4aa6848cbf8cd7ff9
+  - enabled: 1
+    path: Assets/App Screens/Extra Materials.unity
+    guid: 5e490806171e449e782e4d2522ed071a
+  - enabled: 1
+    path: Assets/App Screens/FinalPrice.unity
+    guid: 64e4fccbd070e1d408afeef9157ee655
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8ccd9197aaea64a1ca437bb51252ffdd,
       type: 2}
