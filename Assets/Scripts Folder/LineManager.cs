@@ -85,7 +85,10 @@ public class LineManager : MonoBehaviour
         tempTPrice = tPrice;
     }
 
-    
+    public void resetPrice()
+    {
+
+    }
 
     
 
