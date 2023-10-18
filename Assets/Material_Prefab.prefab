@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1281677975763530830}
   - component: {fileID: 1281677975763530831}
   m_Layer: 5
-  m_Name: Material_1_Subtract
+  m_Name: Material_Subtract
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -144,7 +144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1281677975777740537}
   m_Layer: 5
-  m_Name: Material_1
+  m_Name: Material_Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -187,7 +187,7 @@ GameObject:
   - component: {fileID: 1281677976375594019}
   - component: {fileID: 1281677976375594044}
   m_Layer: 5
-  m_Name: Material_1_Name
+  m_Name: Material_Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -597,7 +597,7 @@ GameObject:
   - component: {fileID: 1281677976730002991}
   - component: {fileID: 1281677976730002989}
   m_Layer: 5
-  m_Name: Material_1_Total
+  m_Name: Material_Total
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -746,7 +746,7 @@ GameObject:
   - component: {fileID: 1281677976903625160}
   - component: {fileID: 120865986198617890}
   m_Layer: 5
-  m_Name: Material_1_Image
+  m_Name: Material_Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -820,7 +820,7 @@ GameObject:
   - component: {fileID: 1281677976970303536}
   - component: {fileID: 1281677976970303537}
   m_Layer: 5
-  m_Name: Material_1_Add
+  m_Name: Material_Add
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
