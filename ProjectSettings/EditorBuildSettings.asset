@@ -41,6 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/App Screens/Select Fence.unity
     guid: 8a7b67e44a66e4fc2a65bd8ecd79e5f2
+  - enabled: 1
+    path: Assets/App Screens/Expand Image.unity
+    guid: 09e6f63418e0c4032980b9de09d2bc97
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8ccd9197aaea64a1ca437bb51252ffdd,
       type: 2}

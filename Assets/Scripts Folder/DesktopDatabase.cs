@@ -21,8 +21,8 @@ public class DesktopDatabase : MonoBehaviour
         [PrimaryKey, AutoIncrement]
         public int id { get; set; }
         public string name { get; set; }
-        public string price { get; set; }
         public string category { get; set; }
+        public string style { get; set; }
         public byte[] image { get; set; }
     }
 
@@ -80,13 +80,13 @@ public class DesktopDatabase : MonoBehaviour
 
                     // Get references to UI elements
                     TextMeshProUGUI nameText = productInstance.transform.Find("DB_Name").GetComponent<TextMeshProUGUI>();
-                    TextMeshProUGUI priceText = productInstance.transform.Find("DB_Price").GetComponent<TextMeshProUGUI>();
                     TextMeshProUGUI categoryText = productInstance.transform.Find("DB_Category").GetComponent<TextMeshProUGUI>();
+                    TextMeshProUGUI styleText = productInstance.transform.Find("DB_Style").GetComponent<TextMeshProUGUI>();
                     Image productImage = productInstance.transform.Find("Image").GetComponent<Image>();
 
                     // Set text and image using product data
                     nameText.text = "Name: " + product.name;
-                    priceText.text = "Price: " + product.price;
+                    styleText.text = "Style: " + product.style;
                     categoryText.text = "Category: " + product.category;
 
                     // Create a Texture2D from the byte[] image data

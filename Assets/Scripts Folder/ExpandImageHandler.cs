@@ -7,12 +7,18 @@ public class ExpandImageHandler : MonoBehaviour
 {
     public Image expandedImage;
 
-    // Method to set the expanded image
     public void SetExpandedImage(Sprite sprite)
     {
-        expandedImage.sprite = sprite;
-
-
+        Debug.Log("SetExpandedImage called");
+        if (sprite != null)
+        {
+            expandedImage.sprite = sprite;
+            Debug.Log("Expanded image set successfully");
+        }
+        else
+        {
+            Debug.LogError("Sprite is null");
+        }
     }
 
 
