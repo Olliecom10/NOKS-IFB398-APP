@@ -86,8 +86,8 @@ public class DesktopDatabase : MonoBehaviour
 
                     // Set text and image using product data
                     nameText.text = "Name: " + product.name;
-                    styleText.text = "Style: " + product.style;
                     categoryText.text = "Category: " + product.category;
+                    styleText.text = "Style: " + product.style;
 
                     // Create a Texture2D from the byte[] image data
                     Texture2D tex = new Texture2D(2, 2);
