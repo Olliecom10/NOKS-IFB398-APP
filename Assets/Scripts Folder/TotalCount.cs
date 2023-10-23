@@ -7,7 +7,7 @@ using TMPro;
 public class TotalCount : MonoBehaviour
 {
     public int count;
-    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI Total_1;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +23,7 @@ public class TotalCount : MonoBehaviour
 
     void UpdateScoreText()
     {
-        scoreText.text = count.ToString();
+        Total_1.text = count.ToString();
     }
 
     public void AddCount()
@@ -34,6 +34,8 @@ public class TotalCount : MonoBehaviour
 
     public void SubtractCount()
     {
+        Debug.Log("SubtractCount called");
+
         if (count > 0)
         {
             count--;
