@@ -8,7 +8,7 @@ using TMPro;
 using System.Collections;
 using UnityEngine.UI;
 
-public class AndroidGateDatabase : MonoBehaviour
+public class AndroidFenceDatabase : MonoBehaviour
 {
     public GameObject DBDisplayEntries;
     public Transform contentPanel;
@@ -74,7 +74,7 @@ public class AndroidGateDatabase : MonoBehaviour
             // Loop through productsList to create UI elements
             foreach (Gate_Fence_Database product in productsList)
             {
-                if (product.category.Contains("Gate"))
+                if (product.category.Contains("Fence"))
                 {
                     Debug.Log("Testing for each starting");
                     // Instantiate the prefab as a child of the DatabaseEntriesContainer

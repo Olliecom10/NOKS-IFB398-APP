@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571337, b: 0.3069219, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -219,10 +219,10 @@ RectTransform:
   m_Father: {fileID: 1243607240}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 375, y: -793}
-  m_SizeDelta: {x: 200, y: 200}
+  m_AnchorMin: {x: 0.75070375, y: 0.029562501}
+  m_AnchorMax: {x: 0.94900006, y: 0.13545834}
+  m_AnchoredPosition: {x: -3, y: 8.5}
+  m_SizeDelta: {x: -14, y: -1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &122756797
 MonoBehaviour:
@@ -431,10 +431,10 @@ RectTransform:
   m_Father: {fileID: 1243607240}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -403, y: 863}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0.07870371, y: 0.9193542}
+  m_AnchorMax: {x: 0.16870373, y: 0.97400004}
+  m_AnchoredPosition: {x: 3.5, y: 5}
+  m_SizeDelta: {x: 3, y: -2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &219259480
 MonoBehaviour:
@@ -597,10 +597,10 @@ RectTransform:
   m_Father: {fileID: 1243607240}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -420, y: -813}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0.07870371, y: 0.0531875}
+  m_AnchorMax: {x: 0.20029631, y: 0.13545834}
+  m_AnchoredPosition: {x: -1.3470459, y: -2.347046}
+  m_SizeDelta: {x: 27.305786, y: 1.3057861}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &405220105
 MonoBehaviour:
@@ -622,7 +622,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: e17c7957ce3734f4eab60cb31db8ae9a, type: 3}
+  m_Texture: {fileID: 2800000, guid: 862596222a95b4d1e8cb7c3ed35b5963, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
