@@ -1,39 +1,29 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ImageSetter : MonoBehaviour
+public class ImageSetter: MonoBehaviour
 {
-    public RawImage rawImage; // Reference to the RawImage component
-    public static int setter;
-    
-    public void ColourBondFence()
+    public RawImage rawImage; // Reference to your Raw Image
+    public Texture texture1;  // The texture to assign when setter = 1
+
+    public static int setter; // Your variable to control texture assignment
+
+    public void ColourBond()
     {
         setter = 1;
     }
-    public void ColourBondFenceRemove()
+    public void ColourBondRemove()
     {
         setter = 0;
     }
-    // Start is called before the first frame update
-    void Start()
+
+    // Update is called once per frame
+    void Update()
     {
-            if (rawImage != null && setter == 1)
-            {
-                // Get the TextureSelection script from the scene
-                TextureSelection textureSelection = FindObjectOfType<TextureSelection>();
-
-                if (textureSelection != null && textureSelection.selectedTexture != null)
-                {
-                    // Assign the selected texture to the RawImage
-                    rawImage.texture = textureSelection.selectedTexture;
-                }
-                else
-                {
-                    Debug.LogError("TextureSelection script or selected texture not found.");
-                }
-            }
+        if (setter == 1)
+        {
+            rawImage.texture = texture1; // Assign texture1 to the Raw Image
+        }
+        // Add more conditions for other values of 'setter' if needed.
     }
-
-    
-
 }
