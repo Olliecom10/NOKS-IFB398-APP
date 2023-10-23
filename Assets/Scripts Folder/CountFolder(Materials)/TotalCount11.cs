@@ -20,6 +20,11 @@ public class TotalCount11 : MonoBehaviour
         
     }
 
+    public void RemoveCount()
+    {
+        countSAK = 0;
+    }
+
     public void UpdateScoreTextSAK()
     {
         Total_11.text = countSAK.ToString();

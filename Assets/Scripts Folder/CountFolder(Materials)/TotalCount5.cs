@@ -22,6 +22,11 @@ public class TotalCount5 : MonoBehaviour
         
     }
 
+    public void RemoveCount()
+    {
+        countCBP = 0;
+    }
+
     public void UpdateScoreTextCBP()
     {
         Total_5.text = countCBP.ToString();

@@ -17,6 +17,7 @@ public class LineManager : MonoBehaviour
     public static string SuserInput;
     public TMP_Text canvasText;
     public static int steelPost65;
+    public static int SetHeight;
 
     // Start is called before the first frame update
     void Start()
@@ -62,21 +63,539 @@ public class LineManager : MonoBehaviour
 
         }
     }
-   
-    public void SteelPostAdd()
+
+    public void Height1200()
     {
-        tempTPrice = tempTPrice + 300;
-        steelPost65 = steelPost65 + 1;
-        text.text = $"{steelPost65}";
+        SetHeight = 1;
     }
 
-    public void SteelPostRemove()
+    public void Height1500()
     {
-        tempTPrice = tempTPrice - 300;
-        steelPost65 = steelPost65 - 1;
-        text.text = $"{steelPost65}";
+        SetHeight = 2;
+    }
+
+    public void Height1800()
+    {
+        SetHeight = 3;
+    }
+
+    public void Height2100()
+    {
+        SetHeight = 4;
+    }
+
+    public void ResetChoice()
+    {
+        SetHeight = 0;
+    }
+
+    public static float ToSingle(double value)
+    {
+        return (float)value;
+    }
+
+    public void Mat1Add()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice + 56;
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice + 66;
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice + 76;
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice + 96;
+        }
+        
+    }
+
+    public void Mat1Remove()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice - 56;
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice - 66;
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice - 76;
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice - 96;
+        }
+    }
+
+
+
+    public void Mat2Add()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice + 35;
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice + 45;
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice + 55;
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice + 75;
+        }
 
     }
+
+    public void Mat2Remove()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice - 35;
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice - 45;
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice - 55;
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice - 75;
+        }
+    }
+
+    public void Mat3Add()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice + 56;
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice + 66;
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice + 76;
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice + 96;
+        }
+
+    }
+
+    public void Mat3Remove()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice - 56;
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice - 66;
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice - 76;
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice - 96;
+        }
+    }
+
+
+
+    public void Mat4Add()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice + 122;
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice + 132;
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice + 152;
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice + 162;
+        }
+
+    }
+
+    public void Mat4Remove()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice - 122;
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice - 132;
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice - 152;
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice - 162;
+        }
+    }
+
+
+    public void Mat5Add()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice + ToSingle(99.80);
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice + 115;
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice + 130;
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice + 145;
+        }
+
+    }
+
+    public void Mat5Remove()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice - ToSingle(99.80);
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice - 115;
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice - 130;
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice - 145;
+        }
+    }
+
+    public void Mat6Add()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice + 56;
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice + 66;
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice + 76;
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice + 96;
+        }
+
+    }
+
+    public void Mat6Remove()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice - 56;
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice - 66;
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice - 76;
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice - 96;
+        }
+    }
+
+    public void Mat7Add()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice + 35;
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice + 45;
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice + 55;
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice + 75;
+        }
+
+    }
+
+    public void Mat7Remove()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice - 35;
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice - 45;
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice - 55;
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice - 75;
+        }
+    }
+
+
+
+    public void Mat8Add()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice + ToSingle(8.50);
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice + ToSingle(8.50);
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice + ToSingle(8.50);
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice + ToSingle(8.50);
+        }
+
+    }
+
+    public void Mat8Remove()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice - ToSingle(8.50);
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice - ToSingle(8.50);
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice - ToSingle(8.50);
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice - ToSingle(8.50);
+        }
+    }
+
+
+    public void Mat9Add()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice + ToSingle(6.50);
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice + ToSingle(6.50);
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice + ToSingle(6.50);
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice + ToSingle(6.50);
+        }
+
+    }
+
+    public void Mat9Remove()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice - ToSingle(6.50);
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice - ToSingle(6.50);
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice - ToSingle(6.50);
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice - ToSingle(6.50);
+        }
+    }
+    public void Mat10Add()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice + 11;
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice + 11;
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice + 11;
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice + 11;
+        }
+
+    }
+
+    public void Mat10Remove()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice - 11;
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice - 11;
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice - 11;
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice - 11;
+        }
+    }
+
+
+    public void Mat11Add()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice + 1800;
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice + 1800;
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice + 1800;
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice + 1800;
+        }
+
+    }
+
+    public void Mat11Remove()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice - 1800;
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice - 1800;
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice - 1800;
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice - 1800;
+        }
+    }
+
+
+    public void Mat12Add()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice + 1280;
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice + 1280;
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice + 1280;
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice + 1280;
+        }
+
+    }
+
+    public void Mat12Remove()
+    {
+        if (SetHeight == 1)
+        {
+            tempTPrice = tempTPrice - 1280;
+        }
+        else if (SetHeight == 2)
+        {
+            tempTPrice = tempTPrice - 1280;
+        }
+        else if (SetHeight == 3)
+        {
+            tempTPrice = tempTPrice - 1280;
+        }
+        else if (SetHeight == 4)
+        {
+            tempTPrice = tempTPrice - 1280;
+        }
+    }
+
+
 
     public void TotalPriceUpdate()
     {

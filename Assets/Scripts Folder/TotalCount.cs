@@ -21,7 +21,11 @@ public class TotalCount : MonoBehaviour
         
     }
 
-   
+    public void RemoveCount()
+    {
+        count = 0;
+    }
+
     public void UpdateScoreText()
     {
         Total_1.text = count.ToString();

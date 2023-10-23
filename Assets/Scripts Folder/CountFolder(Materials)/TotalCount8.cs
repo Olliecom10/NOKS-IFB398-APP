@@ -20,6 +20,11 @@ public class TotalCount8 : MonoBehaviour
         
     }
 
+    public void RemoveCount()
+    {
+        countSFPCC = 0;
+    }
+
     public void UpdateScoreTextSFPCC()
     {
         Total_8.text = countSFPCC.ToString();

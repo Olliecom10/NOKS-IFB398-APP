@@ -21,6 +21,13 @@ public class TotalCount6 : MonoBehaviour
     {
         
     }
+
+    public void RemoveCount()
+    {
+        countIP = 0;
+    }
+
+
     public void UpdateScoreTextIP()
     {
         Total_6.text = countIP.ToString();

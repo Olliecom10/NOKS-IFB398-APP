@@ -21,6 +21,11 @@ public class TotalCount2 : MonoBehaviour
         
     }
 
+    public void RemoveCount()
+    {
+        countCBFT = 0;
+    }
+
     public void UpdateScoreTextCBFT()
     {
         Total_2.text = countCBFT.ToString();

@@ -23,6 +23,11 @@ public class TotalCount4 : MonoBehaviour
         
     }
 
+    public void RemoveCount()
+    {
+        countOHSPP = 0;
+    }
+
     public void UpdateScoreTextOHSPP()
     {
         Total_4.text = countOHSPP.ToString();

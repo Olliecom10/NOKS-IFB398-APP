@@ -21,6 +21,11 @@ public class TotalCount3 : MonoBehaviour
         
     }
 
+    public void RemoveCount()
+    {
+        countSSP = 0;
+    }
+
     public void UpdateScoreTextSSP()
     {
         Total_3.text = countSSP.ToString();

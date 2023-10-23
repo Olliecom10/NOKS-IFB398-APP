@@ -21,6 +21,11 @@ public class TotalCount9 : MonoBehaviour
         
     }
 
+    public void RemoveCount()
+    {
+        countFTPCC = 0;
+    }
+
     public void UpdateScoreTextFTPCC()
     {
         Total_9.text = countFTPCC.ToString();

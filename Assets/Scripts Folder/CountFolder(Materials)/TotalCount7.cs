@@ -21,6 +21,11 @@ public class TotalCount7 : MonoBehaviour
         
     }
 
+    public void RemoveCount()
+    {
+        countCBR = 0;
+    }
+
     public void UpdateScoreTextCBR()
     {
         Total_7.text = countCBR.ToString();

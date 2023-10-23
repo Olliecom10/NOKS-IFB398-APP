@@ -21,6 +21,11 @@ public class TotalCount10 : MonoBehaviour
         
     }
 
+    public void RemoveCount()
+    {
+        countPCTS = 0;
+    }
+
     public void UpdateScoreTextPCTS()
     {
         Total_10.text = countPCTS.ToString();
