@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571337, b: 0.3069219, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -190,6 +190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_2: {fileID: 1722873478}
+  Mat2: {fileID: 0}
 --- !u!114 &43018599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,9 +207,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!1001 &72536602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1129,6 +1131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_8: {fileID: 773613078}
+  Mat8: {fileID: 0}
 --- !u!114 &144362233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1145,9 +1148,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!1001 &182754477
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1464,6 +1468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_6: {fileID: 1214244358}
+  Mat6: {fileID: 0}
 --- !u!114 &226489942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1480,9 +1485,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!224 &245926904 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1281677975777740537, guid: 02ee2858fa0914bf0be5563bb19e7640,
@@ -1508,6 +1514,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_7: {fileID: 1624506084}
+  Mat7: {fileID: 0}
 --- !u!114 &250831625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1524,9 +1531,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!4 &252408108 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514335297136433663, guid: e5ea16709a1a947bf9b531042ad4b54c,
@@ -1774,6 +1782,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_11: {fileID: 482173839}
+  Mat11: {fileID: 0}
 --- !u!114 &369180462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1790,9 +1799,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!1 &385592443
 GameObject:
   m_ObjectHideFlags: 0
@@ -1826,10 +1836,10 @@ RectTransform:
   m_Father: {fileID: 1798302856}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.12129629, y: 0.665}
-  m_AnchorMax: {x: 1, y: 0.69545263}
-  m_AnchoredPosition: {x: 0.50024414, y: 0}
-  m_SizeDelta: {x: 1.0009, y: -3.9492188}
+  m_AnchorMin: {x: 0.12129629, y: 0.66820806}
+  m_AnchorMax: {x: 1, y: 0.68754745}
+  m_AnchoredPosition: {x: 1.0004883, y: 2}
+  m_SizeDelta: {x: 2.0009, y: 3.1399994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &385592445
 MonoBehaviour:
@@ -2991,6 +3001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_5: {fileID: 1094128031}
+  Mat5: {fileID: 0}
 --- !u!114 &567253116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3007,9 +3018,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!1 &575504591
 GameObject:
   m_ObjectHideFlags: 0
@@ -3364,6 +3376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_4: {fileID: 1458177274}
+  Mat4: {fileID: 0}
 --- !u!114 &685694303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3380,9 +3393,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!1 &688952725
 GameObject:
   m_ObjectHideFlags: 0
@@ -3537,6 +3551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_3: {fileID: 1171915938}
+  Mat3: {fileID: 0}
 --- !u!114 &699448342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3553,9 +3568,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!1 &754900043
 GameObject:
   m_ObjectHideFlags: 0
@@ -4597,6 +4613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_9: {fileID: 1148864619}
+  Mat9: {fileID: 0}
 --- !u!114 &871654883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4613,9 +4630,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!1001 &872506122
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5383,6 +5401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_8: {fileID: 773613078}
+  Mat8: {fileID: 0}
 --- !u!114 &1085665851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5399,9 +5418,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!1001 &1088677198
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6043,6 +6063,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_11: {fileID: 482173839}
+  Mat11: {fileID: 0}
 --- !u!114 &1227442192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6059,9 +6080,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!1 &1243399351
 GameObject:
   m_ObjectHideFlags: 0
@@ -6189,6 +6211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_2: {fileID: 1722873478}
+  Mat2: {fileID: 0}
 --- !u!114 &1249829940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6205,9 +6228,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!1001 &1256186504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6598,6 +6622,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_7: {fileID: 1624506084}
+  Mat7: {fileID: 0}
 --- !u!114 &1283185290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6614,9 +6639,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!4 &1289270689 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514335297136433663, guid: e5ea16709a1a947bf9b531042ad4b54c,
@@ -6894,6 +6920,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_10: {fileID: 120418862}
+  Mat10: {fileID: 0}
 --- !u!114 &1337133943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6910,9 +6937,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!1 &1350761090
 GameObject:
   m_ObjectHideFlags: 0
@@ -8483,6 +8511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_1: {fileID: 209634750}
+  Mat1: {fileID: 0}
 --- !u!114 &1482665750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8499,9 +8528,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!1 &1493007621
 GameObject:
   m_ObjectHideFlags: 0
@@ -8618,6 +8648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_12: {fileID: 1891070542}
+  Mat12: {fileID: 0}
 --- !u!114 &1496198426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8634,9 +8665,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!1001 &1515420337
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8924,6 +8956,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_3: {fileID: 1171915938}
+  Mat3: {fileID: 0}
 --- !u!114 &1538502404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8940,9 +8973,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!1 &1576258080 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5419499962240573944, guid: e5ea16709a1a947bf9b531042ad4b54c,
@@ -8962,6 +8996,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_9: {fileID: 1148864619}
+  Mat9: {fileID: 0}
 --- !u!114 &1576258087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8978,9 +9013,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!224 &1592496659 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1281677975777740537, guid: 02ee2858fa0914bf0be5563bb19e7640,
@@ -9018,6 +9054,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_5: {fileID: 1094128031}
+  Mat5: {fileID: 0}
 --- !u!114 &1648452452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9034,9 +9071,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!224 &1651850810 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1281677975777740537, guid: 02ee2858fa0914bf0be5563bb19e7640,
@@ -9539,10 +9577,10 @@ RectTransform:
   m_Father: {fileID: 1798302856}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.12129629, y: 0.52228874}
-  m_AnchorMax: {x: 0.717, y: 0.54245263}
-  m_AnchoredPosition: {x: -0.09503174, y: -1}
-  m_SizeDelta: {x: -0.18951416, y: 0.9688721}
+  m_AnchorMin: {x: 0.12129629, y: 0.52311313}
+  m_AnchorMax: {x: 0.85666674, y: 0.53883207}
+  m_AnchoredPosition: {x: 11.880005, y: 1.4990234}
+  m_SizeDelta: {x: -27.683601, y: 3.0112991}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1744996064
 MonoBehaviour:
@@ -9627,7 +9665,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -0.000061035156, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -10630,9 +10668,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!4 &1860490695
 Transform:
   m_ObjectHideFlags: 0
@@ -10667,6 +10706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_10: {fileID: 120418862}
+  Mat10: {fileID: 0}
 --- !u!114 &1871556191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10683,9 +10723,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!1001 &1885949396
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11431,6 +11472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_1: {fileID: 209634750}
+  Mat1: {fileID: 0}
 --- !u!114 &1941618308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11447,9 +11489,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!1001 &1944459995
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11807,6 +11850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_6: {fileID: 1214244358}
+  Mat6: {fileID: 0}
 --- !u!114 &1957665751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11823,9 +11867,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!1 &1985513952
 GameObject:
   m_ObjectHideFlags: 0
@@ -11859,9 +11904,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!4 &1985513954
 Transform:
   m_ObjectHideFlags: 0
@@ -12117,6 +12163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_4: {fileID: 1458177274}
+  Mat4: {fileID: 0}
 --- !u!114 &2083755057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12133,9 +12180,10 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!4 &2086787394 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514335297136433663, guid: e5ea16709a1a947bf9b531042ad4b54c,
@@ -12161,6 +12209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Total_12: {fileID: 1891070542}
+  Mat12: {fileID: 0}
 --- !u!114 &2117171929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12177,6 +12226,7 @@ MonoBehaviour:
   placementInteractable: {fileID: 0}
   mText: {fileID: 0}
   buttonText: {fileID: 0}
-  text: {fileID: 0}
+  textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
+  updatedText: 'The final price is: $0 The final price is: $0'

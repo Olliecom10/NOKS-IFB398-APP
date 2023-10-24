@@ -50,6 +50,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/App Screens/Select Height.unity
     guid: 2800d83e587ed4f2391304ec6a84a0e0
+  - enabled: 1
+    path: Assets/App Screens/Gate Duplicate Format.unity
+    guid: 24a929d1614724cb696c645ba6fc7d76
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8ccd9197aaea64a1ca437bb51252ffdd,
       type: 2}
