@@ -239,7 +239,6 @@ GameObject:
   - component: {fileID: 122756799}
   - component: {fileID: 122756798}
   - component: {fileID: 122756797}
-  - component: {fileID: 122756801}
   - component: {fileID: 122756800}
   m_Layer: 5
   m_Name: Screenshot_Button
@@ -338,19 +337,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 122756797}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 122756801}
-        m_TargetAssemblyTypeName: ScreenshotFunction, Assembly-CSharp
-        m_MethodName: CaptureScreenshot
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!222 &122756799
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -368,22 +355,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 122756795}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e21383c1fdbe7341a96b1049108c2b1, type: 3}
+  m_Script: {fileID: 11500000, guid: a0f79c8802251488fb2dc9cd222e3a2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &122756801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 122756795}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdd6755e528cb384aaa001c754c2607f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  screenshotPath: /Screenshots/
+  screenshotButton: {fileID: 122756798}
 --- !u!1 &154389399
 GameObject:
   m_ObjectHideFlags: 0
@@ -753,7 +728,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1247093309}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PhoneCamera, Assembly-CSharp
         m_MethodName: ToggleFreeze
         m_Mode: 1
@@ -1303,7 +1278,7 @@ GameObject:
   - component: {fileID: 1247093312}
   - component: {fileID: 1247093311}
   - component: {fileID: 1247093310}
-  - component: {fileID: 1247093309}
+  - component: {fileID: 1247093313}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: Untagged
@@ -1311,21 +1286,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1247093309
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1247093308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af50d8787a9d54fefb99ca71927a402a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  background: {fileID: 1515299415}
-  fit: {fileID: 0}
-  freezeButton: {fileID: 0}
 --- !u!81 &1247093310
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1359,7 +1319,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 26.991467
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -1392,6 +1352,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1247093313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247093308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af50d8787a9d54fefb99ca71927a402a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  background: {fileID: 1515299415}
+  fit: {fileID: 0}
+  freezeButton: {fileID: 0}
 --- !u!1 &1515299413
 GameObject:
   m_ObjectHideFlags: 0
@@ -1428,7 +1403,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.6577759, y: 2.8859863}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: -843.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1515299415

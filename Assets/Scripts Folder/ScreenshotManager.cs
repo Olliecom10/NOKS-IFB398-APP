@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -35,8 +34,7 @@ public class ScreenshotManager : MonoBehaviour
             {
                 // Save the screenshot to the gallery
                 string screenshotFileName = "Screenshot_" + System.DateTime.Now.ToString("yyyyMMddHHmmss") + ".png";
-                //NativeGallery.SaveImageToGallery(screenshotBytes, "MyScreenshots", screenshotFileName);
-                // MUST DO THIS ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                NativeGallery.SaveImageToGallery(screenshotBytes, "MyScreenshots", screenshotFileName);
 
                 Debug.Log("Screenshot saved: " + screenshotFileName);
             }
@@ -55,11 +53,10 @@ public class ScreenshotManager : MonoBehaviour
         // Clean up
         Destroy(screenshotTexture);
     }
-
     private bool AndroidVersionIsSupported()
     {
         // Check Android version here, return true if supported, false otherwise
-        // You can use the `SystemInfo.operatingSystem` property to get the Android version
+        // You can use the SystemInfo.operatingSystem property to get the Android version
         // Example: "Android OS 7.0"
         // You can parse the version number and decide if it's supported or not
         // Example: "7.0" or "8.0"

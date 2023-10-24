@@ -20,7 +20,7 @@ public class ImageSetter: MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void Start()
     {
         if (setter == 1)
         {
