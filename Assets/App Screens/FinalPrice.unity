@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.036000002, y: 0.537}
   m_AnchorMax: {x: 0.9637408, y: 0.5783751}
-  m_AnchoredPosition: {x: -7.447876, y: 280.82}
+  m_AnchoredPosition: {x: 0.14007568, y: 317.82}
   m_SizeDelta: {x: -14.89563, y: 4.3430023}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &57056330
@@ -361,7 +361,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.036000002, y: 0.73860425}
   m_AnchorMax: {x: 0.9637408, y: 0.81447923}
-  m_AnchoredPosition: {x: 7.447876, y: -1122.1}
+  m_AnchoredPosition: {x: 8.447815, y: -1209}
   m_SizeDelta: {x: -14.89563, y: -2.7600098}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &205556082
@@ -411,8 +411,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 75
-  m_fontSizeBase: 75
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -771,7 +771,6 @@ MonoBehaviour:
   textMeshPro: {fileID: 205556082}
   tPrice: 0
   canvasText: {fileID: 0}
-  updatedText: 'The final price is: $0'
 --- !u!114 &242348657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -975,7 +974,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.04525926, y: 0.44737512}
   m_AnchorMax: {x: 0.95800006, y: 0.4912084}
-  m_AnchoredPosition: {x: -9.228149, y: 282.02}
+  m_AnchoredPosition: {x: -1.052185, y: 319.02}
   m_SizeDelta: {x: 2.10437, y: 0.34300232}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &306265858
@@ -1110,7 +1109,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.04525926, y: 0.40356252}
   m_AnchorMax: {x: 0.95800006, y: 0.44737512}
-  m_AnchoredPosition: {x: -9.628052, y: 281.68}
+  m_AnchoredPosition: {x: -2, y: 318.68}
   m_SizeDelta: {x: 1.1043701, y: 0.34300232}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &399234290
@@ -1245,7 +1244,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.042481486, y: 0.22800002}
   m_AnchorMax: {x: 0.957, y: 0.2707292}
-  m_AnchoredPosition: {x: -6.36792, y: 282.32}
+  m_AnchoredPosition: {x: -0.44784546, y: 319.32}
   m_SizeDelta: {x: -0.8956299, y: 2.3430176}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &416024886
@@ -1380,7 +1379,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.04525926, y: 0.13956252}
   m_AnchorMax: {x: 0.957, y: 0.18383333}
-  m_AnchoredPosition: {x: -7.867676, y: 282.14005}
+  m_AnchoredPosition: {x: -0.92004395, y: 319.14005}
   m_SizeDelta: {x: 2.10437, y: -0.6569824}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &556144008
@@ -1650,8 +1649,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.089, y: 0.82600003}
   m_AnchorMax: {x: 0.9110001, y: 0.87200004}
-  m_AnchoredPosition: {x: 0, y: -1125.6}
-  m_SizeDelta: {x: -12.625671, y: 4.718384}
+  m_AnchoredPosition: {x: 86, y: -1230.1}
+  m_SizeDelta: {x: 57.0834, y: 4.7184}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &868797738
 MonoBehaviour:
@@ -1700,8 +1699,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1785,7 +1784,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.04525926, y: 0.2707292}
   m_AnchorMax: {x: 0.957, y: 0.31439582}
-  m_AnchoredPosition: {x: -7.8678, y: 283.66}
+  m_AnchoredPosition: {x: -1.947815, y: 320.66}
   m_SizeDelta: {x: 2.10437, y: 0.34301758}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1165496065
@@ -2183,7 +2182,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.036000002, y: 0.5783751}
   m_AnchorMax: {x: 0.9637408, y: 0.6226042}
-  m_AnchoredPosition: {x: -7.447876, y: 282.66003}
+  m_AnchoredPosition: {x: 0.14007568, y: 319.65997}
   m_SizeDelta: {x: -14.89563, y: -0.6569977}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1254339714
@@ -2318,7 +2317,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.036000002, y: 0.6226042}
   m_AnchorMax: {x: 0.9637408, y: 0.6666042}
-  m_AnchoredPosition: {x: -7.447876, y: 282}
+  m_AnchoredPosition: {x: 0.000030517578, y: 319}
   m_SizeDelta: {x: -14.89563, y: -0.6569977}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1279385180
@@ -2547,7 +2546,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.042481486, y: 0.31439582}
   m_AnchorMax: {x: 0.957, y: 0.36025}
-  m_AnchoredPosition: {x: -6.36792, y: 282}
+  m_AnchoredPosition: {x: -0.44778442, y: 319}
   m_SizeDelta: {x: -0.8956299, y: -3.6569824}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1424206325
@@ -3197,7 +3196,6 @@ MonoBehaviour:
   textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
-  updatedText: 'The final price is: $0 The final price is: $0'
 --- !u!114 &1529084664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3401,7 +3399,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.036000002, y: 0.5}
   m_AnchorMax: {x: 0.9637408, y: 0.537}
-  m_AnchoredPosition: {x: -7.7281494, y: 271.98}
+  m_AnchoredPosition: {x: 0, y: 308.98}
   m_SizeDelta: {x: -14.89563, y: 13.343002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1537515660
@@ -3613,8 +3611,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.089, y: 0.68}
   m_AnchorMax: {x: 0.9110001, y: 0.726625}
-  m_AnchoredPosition: {x: 7.3077393, y: 276}
-  m_SizeDelta: {x: -178.5354, y: -5.577}
+  m_AnchoredPosition: {x: 63.61142, y: 305}
+  m_SizeDelta: {x: -65.9283, y: -5.577}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1857526944
 MonoBehaviour:
@@ -3663,8 +3661,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3748,7 +3746,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.042481486, y: 0.35920835}
   m_AnchorMax: {x: 0.95800006, y: 0.40356252}
-  m_AnchoredPosition: {x: -6.947876, y: 281.84}
+  m_AnchoredPosition: {x: 0.000030517578, y: 318.84}
   m_SizeDelta: {x: -1.8956299, y: -0.6569977}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1874261405
@@ -3961,7 +3959,6 @@ MonoBehaviour:
   textMeshPro: {fileID: 0}
   tPrice: 0
   canvasText: {fileID: 0}
-  updatedText: 'The final price is: $0'
 --- !u!4 &2003081183
 Transform:
   m_ObjectHideFlags: 0
@@ -4024,7 +4021,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.04525926, y: 0.18383333}
   m_AnchorMax: {x: 0.95800006, y: 0.22800002}
-  m_AnchoredPosition: {x: -9.728149, y: 281.47998}
+  m_AnchoredPosition: {x: -1.5, y: 318.48}
   m_SizeDelta: {x: 1.1043701, y: -0.6569824}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2041075918
