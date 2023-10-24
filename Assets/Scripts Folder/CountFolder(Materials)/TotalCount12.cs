@@ -28,7 +28,7 @@ public class TotalCount12 : MonoBehaviour
 
     public void UpdateSummaryText()
     {
-        Mat12.text = $"Solar Automation Kit x {countAK}";
+        Mat12.text = $"240v Automation Kit x {countAK}";
     }
 
     public void UpdateScoreTextAK()

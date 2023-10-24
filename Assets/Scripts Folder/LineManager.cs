@@ -18,7 +18,7 @@ public class LineManager : MonoBehaviour
     public static string SuserInput;
     public TMP_Text canvasText;
     public static int SetHeight;
-    public string updatedText = $"The final price is: ${tempTPrice} The final price is: ${Mathf.Round(tempTDistance * 100.0f) * 0.01f}";
+    public string updatedText = $"Final Price: ${tempTPrice} Final price is: ${Mathf.Round(tempTDistance * 100.0f) * 0.01f}";
 
 
     // Start is called before the first frame update
@@ -620,7 +620,7 @@ public class LineManager : MonoBehaviour
     public void UpdateFinalPrice()
     {
         float tempDistance = Mathf.Round(tempTDistance * 100.0f) * 0.01f;
-        textMeshPro.text = $"The Final Price is: ${tempTPrice} \nThe Final Distance is: {Mathf.Round(tempDistance * 100.0f) * 0.01f} Metres";
+        textMeshPro.text = $"Final Price: ${tempTPrice} \nFinal Distance: {Mathf.Round(tempDistance * 100.0f) * 0.01f} Metres";
     }
 
 
