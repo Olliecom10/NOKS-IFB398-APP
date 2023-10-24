@@ -10,6 +10,7 @@ public class TotalCount6 : MonoBehaviour
 
     public static int countIP;
     public TextMeshProUGUI Total_6;
+    public TextMeshProUGUI Mat6;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +26,11 @@ public class TotalCount6 : MonoBehaviour
     public void RemoveCount()
     {
         countIP = 0;
+    }
+
+    public void UpdateSummaryText()
+    {
+        Mat6.text = $"Infill Panel x {countIP}";
     }
 
 

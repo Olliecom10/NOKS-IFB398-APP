@@ -8,6 +8,7 @@ public class TotalCount : MonoBehaviour
 {
     public static int count;
     public TextMeshProUGUI Total_1;
+    public TextMeshProUGUI Mat1;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +25,11 @@ public class TotalCount : MonoBehaviour
     public void RemoveCount()
     {
         count = 0;
+    }
+
+    public void UpdateSummaryText()
+    {
+        Mat1.text = $"65 x 65 ColourBond Post x {count}";
     }
 
     public void UpdateScoreText()

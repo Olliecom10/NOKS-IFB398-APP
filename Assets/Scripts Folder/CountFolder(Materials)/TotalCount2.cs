@@ -9,6 +9,7 @@ public class TotalCount2 : MonoBehaviour
 
     public static int countCBFT;
     public TextMeshProUGUI Total_2;
+    public TextMeshProUGUI Mat2;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,11 @@ public class TotalCount2 : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void UpdateSummaryText()
+    {
+        Mat2.text = $"50 x 50 Colourbond Post x {countCBFT}";
     }
 
     public void RemoveCount()

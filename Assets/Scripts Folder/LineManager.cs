@@ -11,13 +11,15 @@ public class LineManager : MonoBehaviour
     public ARPlacementInteractable placementInteractable;
     public TextMeshPro mText;
     public TextMeshProUGUI buttonText;
-    public Text text;
+    public TextMeshProUGUI textMeshPro;
     public float tPrice = 0;
     public static float tempTPrice;
+    public static float tempTDistance;
     public static string SuserInput;
     public TMP_Text canvasText;
-    public static int steelPost65;
     public static int SetHeight;
+    public string updatedText = $"The final price is: ${tempTPrice} The final price is: ${tempTDistance}";
+
 
     // Start is called before the first frame update
     void Start()
@@ -44,6 +46,7 @@ public class LineManager : MonoBehaviour
             float distance = Vector3.Distance(firstPoint, secondPoint);
             
             float tempPrice = ((fencePriceMeter * distance) + tPrice);
+            tempTDistance = tempTDistance + distance;
             tPrice = Mathf.Round(tempPrice * 100.0f) * 0.01f;;
             
 
@@ -63,6 +66,9 @@ public class LineManager : MonoBehaviour
 
         }
     }
+
+
+
 
     public void Height1200()
     {
@@ -599,21 +605,21 @@ public class LineManager : MonoBehaviour
 
     public void TotalPriceUpdate()
     {
-        buttonText.text = $"Total Price: ${tPrice}";
-        
+        buttonText.text = $"Total Price: ${tPrice}";        
         tempTPrice = tPrice;
     }
 
-    public void resetPrice()
+    public void resetPriceMeasure()
     {
-
+        tempTPrice = 0;
+        tempTDistance = 0;
     }
 
     
 
     public void UpdateFinalPrice()
     {
-        buttonText.text = $"The final price is: ${tempTPrice}";
+        textMeshPro.text = $"The Final Price is: ${tempTPrice} \nThe Final Distance is: {tempTDistance} Metres";
     }
 
 

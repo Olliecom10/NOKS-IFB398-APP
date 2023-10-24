@@ -8,7 +8,7 @@ public class TotalCount7 : MonoBehaviour
 {
     public static int countCBR;
     public TextMeshProUGUI Total_7;
-
+    public TextMeshProUGUI Mat7;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +24,11 @@ public class TotalCount7 : MonoBehaviour
     public void RemoveCount()
     {
         countCBR = 0;
+    }
+
+    public void UpdateSummaryText()
+    {
+        Mat7.text = $"Colourbond Rail x {countCBR}";
     }
 
     public void UpdateScoreTextCBR()

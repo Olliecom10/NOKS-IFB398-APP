@@ -9,6 +9,7 @@ public class TotalCount10 : MonoBehaviour
 {
     public static int countPCTS;
     public TextMeshProUGUI Total_10;
+    public TextMeshProUGUI Mat10;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +25,11 @@ public class TotalCount10 : MonoBehaviour
     public void RemoveCount()
     {
         countPCTS = 0;
+    }
+
+    public void UpdateSummaryText()
+    {
+        Mat10.text = $"Powdercoated Tech Screws x {countPCTS}";
     }
 
     public void UpdateScoreTextPCTS()

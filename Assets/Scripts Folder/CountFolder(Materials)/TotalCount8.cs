@@ -8,6 +8,7 @@ public class TotalCount8 : MonoBehaviour
 {
     public static int countSFPCC;
     public TextMeshProUGUI Total_8;
+    public TextMeshProUGUI Mat8;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,11 @@ public class TotalCount8 : MonoBehaviour
     public void RemoveCount()
     {
         countSFPCC = 0;
+    }
+
+    public void UpdateSummaryText()
+    {
+        Mat8.text = $"65 x 65 Powdercoated Cap x {countSFPCC}";
     }
 
     public void UpdateScoreTextSFPCC()

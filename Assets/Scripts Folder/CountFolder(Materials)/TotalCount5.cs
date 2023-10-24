@@ -10,6 +10,7 @@ public class TotalCount5 : MonoBehaviour
 
     public static int countCBP;
     public TextMeshProUGUI Total_5;
+    public TextMeshProUGUI Mat5;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,11 @@ public class TotalCount5 : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void UpdateSummaryText()
+    {
+        Mat5.text = $"Colourbond Panel x {countCBP}";
     }
 
     public void RemoveCount()

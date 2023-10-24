@@ -10,7 +10,7 @@ public class TotalCount4 : MonoBehaviour
 
     public static int countOHSPP;
     public TextMeshProUGUI Total_4;
-
+    public TextMeshProUGUI Mat4;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +21,11 @@ public class TotalCount4 : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void UpdateSummaryText()
+    {
+        Mat4.text = $"100 x 100 Slat Panel Post x {countOHSPP}";
     }
 
     public void RemoveCount()

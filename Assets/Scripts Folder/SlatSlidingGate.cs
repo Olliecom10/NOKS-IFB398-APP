@@ -1,9 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
+using System.Collections.Generic;
 
-public class ImageSetter: MonoBehaviour
+public class SlatSlidingGate : MonoBehaviour
 {
     public RawImage rawImage; // Reference to your Raw Image
     public Texture texture1;  // The texture to assign when setter = 1
@@ -12,7 +12,7 @@ public class ImageSetter: MonoBehaviour
 
     public void ColourBond()
     {
-        setter = 1;
+        setter = 3;
     }
     public void ColourBondRemove()
     {
@@ -22,7 +22,7 @@ public class ImageSetter: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (setter == 1)
+        if (setter == 3)
         {
             rawImage.texture = texture1; // Assign texture1 to the Raw Image
         }

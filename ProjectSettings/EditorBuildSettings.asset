@@ -46,7 +46,7 @@ EditorBuildSettings:
     guid: 09e6f63418e0c4032980b9de09d2bc97
   - enabled: 1
     path: Assets/App Screens/Select Gate.unity
-    guid: 4f9f57f7a3fa040dcb41625ee54f5cfd
+    guid: 915e559d1f4f1774796acc158833aecc
   - enabled: 1
     path: Assets/App Screens/Select Height.unity
     guid: 2800d83e587ed4f2391304ec6a84a0e0

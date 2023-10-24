@@ -8,6 +8,7 @@ public class TotalCount12 : MonoBehaviour
 {
     public static int countAK;
     public TextMeshProUGUI Total_12;
+    public TextMeshProUGUI Mat12;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,11 @@ public class TotalCount12 : MonoBehaviour
     public void RemoveCount()
     {
         countAK = 0;
+    }
+
+    public void UpdateSummaryText()
+    {
+        Mat12.text = $"Solar Automation Kit x {countAK}";
     }
 
     public void UpdateScoreTextAK()

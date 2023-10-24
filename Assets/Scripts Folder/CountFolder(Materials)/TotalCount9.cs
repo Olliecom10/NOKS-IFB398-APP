@@ -9,6 +9,7 @@ public class TotalCount9 : MonoBehaviour
 {
     public static int countFTPCC;
     public TextMeshProUGUI Total_9;
+    public TextMeshProUGUI Mat9;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +25,11 @@ public class TotalCount9 : MonoBehaviour
     public void RemoveCount()
     {
         countFTPCC = 0;
+    }
+
+    public void UpdateSummaryText()
+    {
+        Mat9.text = $"50 x 50 Powdercoated Cap x {countFTPCC}";
     }
 
     public void UpdateScoreTextFTPCC()
