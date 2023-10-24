@@ -84,7 +84,7 @@ public class PhoneCamera : MonoBehaviour
     }
 
     // Function to capture the current frame when the camera feed is frozen
-    private void CaptureFrame()
+    public void CaptureFrame()
     {
         if (isFrozen)
         {
